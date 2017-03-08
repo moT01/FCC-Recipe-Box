@@ -1,0 +1,143 @@
+body {
+    font-family: Gill Sans; }
+
+#app {
+    min-width: 260px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 94%; }
+
+.btn {
+    font-weight: 100;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 4px 6px 0px 6px;
+    margin: 10px 10px;
+    font-size: 20px; }
+
+.btn:hover {
+    position: relative;
+    top: -1px;
+    box-shadow: 1px 1px 1px 0 #555;
+    opacity: 1; }
+
+.btn:active {
+    top: 0px;
+    box-shadow: 1px 1px 0 0 #555; }
+
+.delete-button {
+    color: red; }
+
+.edit-button {
+    color: #808080; }
+
+.main-title {
+    font-size: 32px;
+    text-align: center;
+    padding: 5px }
+
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; 
+    flex-wrap: wrap; }
+
+.recipe-title {
+    font-size: 16px;
+    display: inline;
+    padding: 4px;
+    margin: 10px 0;
+    flex-grow: 2;
+    text-align: center;
+    background-color: #ccc; 
+    color: black;
+    border: 1px solid black; }
+
+.recipe-ingredients {
+    display: none;
+    flex-basis: 100%;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: Andale Mono;
+    padding: 20px;
+    border: 1px solid #0000ff;
+    color: #0000ff;
+    background-color: #ccccff; }
+
+.center {
+    text-align: center; }
+
+hr {
+    color: #6666ff; }
+
+.add-button {
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 0 2px 0;
+    font-size: 24px;
+    background-color: #ccffcc;
+    border: 1px solid green;
+    color: green; 
+    text-align: center; }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    background-color: black;
+    width: 100%;
+    height: 100%; 
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 400ms ease-out 0ms; }
+
+.form {
+    padding: 20px 0 5px 0;
+    position: fixed;
+    top: 50px;
+    left: 100%;
+    width: 94%;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: 2;
+    min-width: 260px;
+    transition: opacity 400ms ease-out 0ms; }
+
+.add-form {
+    background-color: #ccffcc;
+    border: 1px solid green;
+    color: green; }
+
+.edit-form {
+    background-color: #ccc;
+    border: 1px solid black;
+    color: black; }
+
+.textarea-wrap {
+    text-align: left;
+    width: 40%;
+    margin: 0 5%; }
+
+textarea {
+    resize: none;
+    min-height: 150px;
+    width: 100%; 
+    max-width: 100%; }
+
+.cancel-button {
+    color: red; 
+    float: left; }
+
+.save-button {
+    color: green;
+    float: right; }
+
+.inline {
+    display: inline-block; }
+
+.name-wrap {
+    margin: 25px 0 15px 0; }
