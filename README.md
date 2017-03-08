@@ -1,5 +1,6 @@
 ## FCC-Recipe-Box
-(https://www.freecodecamp.com/challenges/build-a-recipe-box)
+##### Recipe Box project for [freecodecamp.com](https://www.freecodecamp.com/challenges/build-a-recipe-box)
+##### Check it out [here](https://mot01.github.io/FCC-Recipe-Box/)
 
 <br/>
 <br/>
@@ -12,8 +13,14 @@
 - User Story: I can edit these recipes.
 - User Story: I can delete these recipes.
 - User Story: All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there.
+
 ##### Hint:  You should prefix your local storage keys on CodePen, i.e. _username_recipes
 
 <br/>
 <br/>
 
+##### Technologies used to complete this project
+- HTML
+- CSS
+- JavaScript
+- React
