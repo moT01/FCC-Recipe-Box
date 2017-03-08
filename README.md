@@ -23,4 +23,5 @@
 - HTML
 - CSS
 - JavaScript
+- jQuery
 - React
