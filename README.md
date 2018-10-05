@@ -1,5 +1,5 @@
 ## FCC-Recipe-Box
-##### Recipe Box project for [freecodecamp.com](https://www.freecodecamp.com/challenges/build-a-recipe-box)
+##### Recipe Box project for [freeCodeCamp](https://www.freecodecamp.org/)
 ##### Check it out [here](https://mot01.github.io/FCC-Recipe-Box/)
 
 <br/>
